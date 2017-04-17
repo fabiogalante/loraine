@@ -13,15 +13,15 @@ import { AppComponent } from './app.component';
 
 import { MeuPrimeiroComponet } from './meu-primeiro/meu-primeiro.componet';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
-import { CursoDetalheComponent } from './curso/curso-detalhe/curso-detalhe.component';
+//import { CursoDetalheComponent } from './curso/curso-detalhe/curso-detalhe.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent, 
-    MeuPrimeiroComponet, 
-    MeuPrimeiro2Component, CursoDetalheComponent
+    MeuPrimeiroComponet, //
+    MeuPrimeiro2Component
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,14 @@
 <p>
-  cursos component!
+  Curso que são ensinados no AprendaDotNet {{nomePortal}}
 </p>
 
 
 <app-curso-detalhe></app-curso-detalhe>
+
+
+<ul>
+  <li *ngFor="let curso of cursos">
+    {{curso}}
+  </li>
+ 
+</ul>
